@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+    <header>
+        <h2>
+            <b>Corrientes Code</b>
+        </h2>
+    </header>
+    <section>
+        <nav id="menu">
+            <a class="elem-menu" href="index.html">Inicio</a>
+            <a class="elem-menu">Cursos</a>
+            <a class="elem-menu">Nosotros</a>
+            <a class="elem-menu">Contactos</a>
+        </nav> 
+    </section>
+    <div id="cartel"> 
+         <p id="propaganda"><b>Los mejores cursos de programacion <br/>desde Corrientes, Argentina.</b></p>
+         <a href="Listado.html" id="enlace-curso"> <b>LISTADO DE CURSOS</b></a>
+    </div>
+      
+    <h3 class="h3listado">Listado de cursos: </h3>
+    <ul>
+        <b>
+            <li>Programacion Back-End</li>
+            <li>Programacion Front-End</li>
+            <li>Programacion FullStack</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Ruby</li>
+        </b>
+    </ul>
+
+    <p class="p2"><b>Contacto</b></p>
+
+    <div id="caja-form">
+        <p id="contactanos">CONTACTANOS LLENANDO TODOS LOS CAMPOS</p>
+        <form action="/formulario"  method="post" id="contenedor">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Nombre" name="nombre"/>
+            <label for="telefono">Telefono</label>
+            <input type="number" id="telefono" placeholder="Telefono"  name="telefono">
+            <br>
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" placeholder="ejemplo@ejemplo.com" name="correo">
+            <br>
+            <label for="mensaje">Mensaje</label>
+            <br/>
+            <textarea id="mensaje" placeholder="Escriba aqui su mensaje..." name="mensaje"></textarea>
+            <br/>
+            <input type="submit" id="submit"/>
+        </form>
+    </div>
+
+    <footer>
+        <p>Todos los derechos reservados, 2021.</p>
+    </footer>
+</body>
+</html>

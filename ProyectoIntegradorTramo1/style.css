@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0px;
+}
+html{
+    background-color: rgb(226, 239, 247);
+}
+.elem-menu{
+    transition: box-shadow 0.2s ease;
+    background-color:#35a700;
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.elem-menu:hover{
+    box-shadow: 0.1rem 0.1rem 0.4rem rgba(0,0,0,0.6);
+    border: solid 0.5px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+#cartel{
+    height: 550px;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('FONDO.jpeg');
+}
+
+#propaganda{
+    height: 550px;
+    width: 100%;
+    font-size: 40px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0,0.5);
+    padding: 200px 50px 100px 50px;
+    text-align: center;
+
+}
+
+#enlace-curso{
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #35a700;
+    padding: 15px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+#enlace-curso:hover{
+    background-color: #a4d4a6;
+    cursor: pointer;
+    color: rgb(224, 224, 224);
+}
+#grueso{
+    margin: 75px 50px 300px 50px;
+    border: solid 1px whitesmoke;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 5px 7px 7px rgba(0,0, 0, 0.3);
+    position: absolute;
+}
+#detalle{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    float: right;
+    height: 300px;
+    width: 33%;
+}
+
+
+#titulo2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    padding-top: 75px;
+}
+.img{ 
+    height: 55px;
+    width: 55px;
+    display: block;
+    position: absolute;
+    float: left;
+    margin: 3.3% 13.50%;
+}
+img.over{
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    z-index: 0;
+    top: 250px;
+    left: 32%;
+}
+img.under{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    top: 250px;
+    left: 35.5%;
+}
+
+.border{
+    position: absolute;
+    border: solid 70px transparent;
+    border-radius: 70px;
+    background-color: orange;
+    float: left;
+    margin: 1% 11%;
+}
+
+.mini-titulo{
+    margin-top: 40px;
+    font-size: 20px ;
+    color: rgb(157, 226, 52);  
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.texto-ejemplo{
+    font-size: 20px;
+    margin-top: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.p2{
+    margin-top: 500px;
+    text-align: center;
+    font-size: 40px;
+}
+#contactanos{
+    color: rgb(233, 177, 73);
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#caja-form{
+    margin:100px auto;
+    margin-top: 70px;
+    width: 60%;
+    height: 360px;
+    border: solid 0px;
+    border-radius: 5px;
+    background-color: #757575;
+    overflow: auto;
+}
+
+#contenedor{
+    width: 100%;
+    height: 200px;
+}
+
+input{
+    margin: 30px 20px 0px 10px;
+    border-radius:5px ;
+    height: 30px;
+}
+input#nombre, input#telefono{
+    width: 312px;  
+}
+
+input#correo{
+    width: 80%;
+}
+
+label{
+    color: honeydew;
+    margin-left:50px;
+}
+
+textarea{
+    border-radius: 5px;
+    margin-left: 130px;
+    width: 78%;
+    height: 80px;
+}
+
+#submit{
+    font-size: 20px;
+    transition: background-color 0.2s ease;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    width: 15%;
+    height: 40px;
+    float: right;
+}
+#submit:hover{
+    background-color: #a4d4a6;
+    cursor: pointer;
+    color: rgb(224, 224, 224);
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(226, 239, 247);
+    position: absolute;
+    bottom: -1;
+    width: 100%;
+    height: 100px;
+    margin-top: 15px ;
+}
+
+footer p{
+    margin-top: 80px;
+    overflow: hidden;
+    color: rgb(100, 100, 100);
+}
+
+
+ul{
+    list-style-type: none;
+    font-size: 2rem;
+    margin: 120px auto;
+    padding-top: 20px ;
+    border: solid 1px rgb(228, 157, 25);
+    background-color:rgb(233, 177, 73) ;
+    color: whitesmoke;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+ul li{
+    text-decoration: none;
+    padding: 4px;
+}
+
+.h3listado{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    color: rgb(141, 138, 138);
+    text-shadow: 4px 4px 4px rgba(141, 138, 138,0.5);
+}
